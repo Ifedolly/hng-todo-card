@@ -38,6 +38,16 @@ main {
   font-weight: 600;
 }
 
+.medium {
+  background: #fff4cc;
+  color: #8a6d00;
+}
+
+.low {
+  background: #ddffdd;
+  color: #0a7a0a;
+}
+
 .tags {
   display: flex;
   gap: 8px;
@@ -48,7 +58,6 @@ main {
 .tags li {
   background: #eee;
   padding: 6px 10px;
-  /* border-radius: 20px; */
 }
 
 .buttons {
@@ -63,4 +72,14 @@ button {
 
 button:focus {
   outline: 2px solid black;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .todo-card {
+    padding: 16px;
+  }
 }
